@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka+One&display=swap');
+/* * {
+    border: 1px solid violet;
+  }
+  */
+
+  body {
+    background-color: snow;
+    color: rgb(61, 136, 210);
+    margin: 20px 0;
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+  }
+  h1, h2, h3 {
+    margin: 0;
+  }
+
+  h1 {
+    margin-top: 0;
+    font-family: 'Fredoka One', cursive;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+
+header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  
+  header div h1 {
+  width: 100%;
+  text-align: left;
+  }
+  
+  header div:last-child {
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+  }
+
+  aside {
+    flex-basis: 15%;
+    min-width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    text-align: left;
+  }
+
+  main {
+    width: 85%;
+    flex-basis: 85%;
+   }
+   
+   .top img, .middle img, .bottom img {
+     width: 100%;
+   }
+   
+   .middle {
+     display: flex;
+     justify-content: space-between;
+   }
+   
+   .middle div {
+     width: 49%;
+   }
+   
+   .bottom {
+     display: flex;
+     justify-content: space-between;
+   }
+   
+   .bottom div {
+     width: 32%;
+     overflow: hidden;
+   }
